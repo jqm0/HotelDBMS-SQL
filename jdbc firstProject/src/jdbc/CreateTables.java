@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class CreateTables {
 	public static void main(String[] args) {
-		String url = "jdbc:sqlserver://localhost:1433;" + "databaseName=JDBC_FirstPractice;" + "encrypt=true;"
+		String url = "jdbc:sqlserver://localhost:1433;" + "databaseName=HotelDBMS;" + "encrypt=true;"
 				+ "trustServerCertificate=true";
 		String user = "sa";
 		String pass = "root";
